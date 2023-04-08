@@ -1,4 +1,4 @@
-﻿//복습
+복습
 
 #include <stdio.h>
 int main(void)
@@ -12,7 +12,13 @@ int main(void)
     return 0;
 }
 
-#include <stdio.h>
+제어문​
+*프로그램의 실행을 인위적으로 조절​
+*프로그램의 흐름을 제어(이동 또는 반복시킴)
+
+
+
+#include <stdio.h> //제어문
 int main(void)
 {
     int input;
@@ -27,7 +33,7 @@ int main(void)
     return 0;
 }
 
-#include <stdio.h>
+#include <stdio.h> //합격, 불합격 구하기
 int main(void)
 {
     int x, y, z, input;
@@ -44,7 +50,10 @@ int main(void)
     return 0;
 }
 
-#include <stdio.h>
+if~else문​
+*조건식이 참이면 if문 아래 문장을, 거짓이면 else문 아래 문장을 수행
+
+#include <stdio.h> //입력받은 양수가 홀수 또는 짝수인지 확인하기
 int main(void)
 {
     int input;
@@ -59,7 +68,7 @@ int main(void)
     return 0;
 }
 
-#include <stdio.h>
+#include <stdio.h> //다중 if문 사용하기
 int main(void)
 {
     int input;
@@ -77,5 +86,6 @@ int main(void)
     {
         printf("입력한 수 %d은 음수입니다.\n", input);
     }
+    
     return 0;
 }

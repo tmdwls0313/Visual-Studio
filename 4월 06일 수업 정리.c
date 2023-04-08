@@ -218,6 +218,6 @@ int main(void) //조건 연산자를 이용하여 큰 값과 작은 값 구하�
 
     printf("두 수 %d과 %d 중에 큰 수는 %d이다.\n", x, y, max);
     printf("두 수 %d과 %d 중에 작은 수는 %d이다.\n", x, y, min);
-
+     
     return 0;
 }

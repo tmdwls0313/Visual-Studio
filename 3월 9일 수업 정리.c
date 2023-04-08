@@ -15,7 +15,7 @@ int main(void)
 	return 0; //main
 }
 
-#include <stdio.h>
+#include <stdio.h> //도스 창에 텍스트를 출력하는 프로그램 작성하기
 
 int main(void) //프로그램의 시작을 알리는 함수
 {
@@ -49,7 +49,7 @@ int main(void)
 	return 0;
 }
 
-#include <stdio.h>
+#include <stdio.h> //이름과 나이 출력하기
 
 int main(void)
 {

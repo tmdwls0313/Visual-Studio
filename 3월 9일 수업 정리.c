@@ -1,49 +1,51 @@
-/*ÁÖ¼® ³»¿ë*/
-//ÀüÃ³¸®±â(¼³¸í)
-#include <stdio.h> (ÇÊ¼ö)
-;: ¸»À» ³¡³»´Â ±âÈ£
+C í”„ë¡œê·¸ëž¨ì˜ êµ¬ì¡°â€‹
+*1ê°œ ì´ìƒì˜ í•¨ìˆ˜ë¡œ êµ¬ì„±â€‹
+*Main( ) í•¨ìˆ˜ëŠ” ë°˜ë“œì‹œ ì¡´ìž¬í•´ì•¼ í•¨.â€‹
+*ê·¸ ì™¸ì˜ í•¨ìˆ˜ëŠ” ì‚¬ìš©ìžê°€ ìž„ì˜ë¡œ ìž‘ì„±í•´ì„œ ì‚¬ìš©
+/*ì£¼ì„ ë‚´ìš©*/
+//ì „ì²˜ë¦¬ê¸°(ì„¤ëª…)
+#include <stdio.h> (í•„ìˆ˜)
+;: ë§ì„ ëë‚´ëŠ” ê¸°í˜¸
 #include <stdio.h>
 
 int main(void)
 {
-	//ÀÏ¹Ý ¸í·É¹®
+	//ì¼ë°˜ ëª…ë ¹ë¬¸
 
 	return 0; //main
 }
 
-#include <stdio.h> //ÀüÃ³¸®±â
+#include <stdio.h>
 
-int main(void) //ÇÁ·Î±×·¥ÀÇ ½ÃÀÛÀ» ¾Ë¸®´Â ÇÔ¼ö
+int main(void) //í”„ë¡œê·¸ëž¨ì˜ ì‹œìž‘ì„ ì•Œë¦¬ëŠ” í•¨ìˆ˜
 {
-	printf("Á¦ ÀÌ¸§Àº Á¤½ÂÁøÀÔ´Ï´Ù.\n"); //printf·Î È­¸é¿¡ Ãâ·Â, \nÀº ¿£ÅÍ¸¦ ÀÇ¹ÌÇÔ
-	printf("Á¦°¡ ÁÁ¾ÆÇÏ´Â °ÍÀº C¾ð¾îÀÔ´Ï´Ù.\n");
-	printf("ÀßºÎÅ¹µå¸³´Ï´Ù.");
-	return 0;
+	printf("ì œ ì´ë¦„ì€ ì •ìŠ¹ì§„ìž…ë‹ˆë‹¤.\n"); //printfë¡œ í™”ë©´ì— ì¶œë ¥, \nì€ ì—”í„°ë¥¼ ì˜ë¯¸í•¨
+	printf("ì œê°€ ì¢‹ì•„í•˜ëŠ” ê²ƒì€ Cì–¸ì–´ìž…ë‹ˆë‹¤.\n");
+	printf("ìž˜ë¶€íƒë“œë¦½ë‹ˆë‹¤.");
+	return 0; //í•¨ìˆ˜ì˜ ì‹¤í–‰ ê²°ê³¼ë¥¼ ë°˜í™˜â€‹
 }
 
-//º¯¼ö
-º¯¼ö
-* ÇÁ·Î±×·¥¿¡¼­ ÀÚ·á °ªÀ» ÀÓ½Ã·Î ÀúÀåÇÏ´Â Àå¼Ò
-* °ªÀÌ °è¼Ó º¯ÇÒ ¼ö ÀÖÀ½.
+ë³€ìˆ˜
+*í”„ë¡œê·¸ëž¨ì—ì„œ ìžë£Œ ê°’ì„ ìž„ì‹œë¡œ ì €ìž¥í•˜ëŠ” ìž¥ì†Œ
+*ê°’ì´ ê³„ì† ë³€í•  ìˆ˜ ìžˆìŒ.
 
-//º¯¼ö ¼±¾ð
-º¯¼ö ¼±¾ð
-int age;(=ÀÚ·áÇü º¯¼ö¸í;)
-*ÀÌ¸§ÀÌ ageÀÎ Á¤¼öÇü º¯¼ö 1°³¸¦ ¼±¾ðÇÑ´Ù´Â ÀÇ¹Ì
-* ÁÖ±â¾ïÀåÄ¡¿¡ age¶ó´Â Á¤¼öÇü Å©±âÀÇ ¸Þ¸ð¸®°¡ ÇÒ´ç
+ë³€ìˆ˜ ì„ ì–¸
+int age;(=ìžë£Œí˜• ë³€ìˆ˜ëª…;)
+*ì´ë¦„ì´ ageì¸ ì •ìˆ˜í˜• ë³€ìˆ˜ 1ê°œë¥¼ ì„ ì–¸í•œë‹¤ëŠ” ì˜ë¯¸
+*ì£¼ê¸°ì–µìž¥ì¹˜ì— ageë¼ëŠ” ì •ìˆ˜í˜• í¬ê¸°ì˜ ë©”ëª¨ë¦¬ê°€ í• ë‹¹
 
 int age = 20;
-¶Ç´Â
+ë˜ëŠ”
 int age;
 age = 20;
-º¯¼ö ¼±¾ðÀ» »ç¿ëÇÒ ¶§¿¡´Â ¹«Á¶°Ç ¼±¾ðÇÒ ¸í·É¾î ¾Õ¿¡ Æ÷ÇÔÇÑ´Ù.(¾Æ·¡~ Àû¿ë)
-(¿¹½Ã)
-...Áß·«
+ë³€ìˆ˜ ì„ ì–¸ì„ ì‚¬ìš©í•  ë•Œì—ëŠ” ë¬´ì¡°ê±´ ì„ ì–¸í•  ëª…ë ¹ì–´ ì•žì— í¬í•¨í•œë‹¤.(ì•„ëž˜~ ì ìš©)
+(ì˜ˆì‹œ)
+...ì¤‘ëžµ
 int main(void)
 {
 	int age = 20;
-	printf("³ªÀÌ´Â %d»ìÀÔ´Ï´Ù.", age); //%d µÚ¿¡´Â ', age'
-	printf("³»³â ³ªÀÌ´Â %d»ìÀÌ°í ÀÛ³â ³ªÀÌ´Â %d»ìÀÔ´Ï´Ù.", age + 1, age - 1); //Á¤¼öÀÌ±â ¶§¹®¿¡ +1 »ç¿ëÀÌ °¡´ÉÇÏ´Ù, age´Â ¼ø¼­¿¡ µû¶ó Àû¿ëµÈ´Ù.
+	printf("ë‚˜ì´ëŠ” %dì‚´ìž…ë‹ˆë‹¤.", age); //%d ë’¤ì—ëŠ” ', age'
+	printf("ë‚´ë…„ ë‚˜ì´ëŠ” %dì‚´ì´ê³  ìž‘ë…„ ë‚˜ì´ëŠ” %dì‚´ìž…ë‹ˆë‹¤.", age + 1, age - 1); //ì •ìˆ˜ì´ê¸° ë•Œë¬¸ì— +1 ì‚¬ìš©ì´ ê°€ëŠ¥í•˜ë‹¤, ageëŠ” ìˆœì„œì— ë”°ë¼ ì ìš©ëœë‹¤.
 	return 0;
 }
 
@@ -52,12 +54,12 @@ int main(void)
 int main(void)
 {
 	int age = 20;
-	printf("Á¦ ÀÌ¸§Àº Á¤½ÂÁøÀÔ´Ï´Ù.\n");
-	printf("Á¦°¡ ÁÁ¾ÆÇÏ´Â °ÍÀº C¾ð¾îÀÔ´Ï´Ù.\n");
-	printf("ÀßºÎÅ¹µå¸³´Ï´Ù.\n");
-	printf("³ªÀÌ´Â %d»ìÀÔ´Ï´Ù.", age);
-	printf("³»³â ³ªÀÌ´Â %d»ìÀÌ°í ÀÛ³â ³ªÀÌ´Â %d»ìÀÔ´Ï´Ù.", age + 1, age - 1);
+	printf("ì œ ì´ë¦„ì€ ì •ìŠ¹ì§„ìž…ë‹ˆë‹¤.\n");
+	printf("ì œê°€ ì¢‹ì•„í•˜ëŠ” ê²ƒì€ Cì–¸ì–´ìž…ë‹ˆë‹¤.\n");
+	printf("ìž˜ë¶€íƒë“œë¦½ë‹ˆë‹¤.\n");
+	printf("ë‚˜ì´ëŠ” %dì‚´ìž…ë‹ˆë‹¤.", age);
+	printf("ë‚´ë…„ ë‚˜ì´ëŠ” %dì‚´ì´ê³  ìž‘ë…„ ë‚˜ì´ëŠ” %dì‚´ìž…ë‹ˆë‹¤.", age + 1, age - 1);
 	return 0;
 }
 
-À¥ ¹öÀü : https://www.onlinegdb.com/online_c_compiler
+ì›¹ ë²„ì „ : https://www.onlinegdb.com/online_c_compiler

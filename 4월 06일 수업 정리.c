@@ -205,9 +205,9 @@ int main(void)
 *C 언어에서 유일하게 피연산자가 3개인 삼항 연산자​
 *? 와 : 연산자를 이용하여 프로그램을 제어
 
-#include <stdio.h>
+#include <stdio.h> //조건 연산자를 이용하여 큰 값과 작은 값 구하기
 
-int main(void) //조건 연산자를 이용하여 큰 값과 작은 값 구하기
+int main(void)
 {
     int min, max;
 

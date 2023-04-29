@@ -129,9 +129,9 @@ int main(void)
     }
 }
 
-#include <stdio.h>
+#include <stdio.h> //switch문을 이용한 사칙연산
 
-int main(void) //switch문을 이용한 사칙연산
+int main(void)
 {
     int num1, num2;
     char arithmetic; //character을 char로 줄여 쓸 수 있음, char은 문자

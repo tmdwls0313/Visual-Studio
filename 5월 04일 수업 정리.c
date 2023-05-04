@@ -134,7 +134,7 @@ int main(void)
     return 0;
 }
 
-#include <stdio.h>
+#include <stdio.h> //숫자 맞추기 게임(랜덤)
 #include <stdlib.h> //랜덤함수
 #include <time.h> //시간이 흐를 때마다 랜덤하게
 int main(void)
